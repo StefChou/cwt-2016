@@ -1,0 +1,32 @@
+p {
+	color: red; /*text color*/
+	font-size: 20px; /*text size*/
+	font-weight: bold; /*make text bold*/
+	font-style: italic; /*make text italic*/
+	text-decoration: underline; /*make text underlined*/
+	text-transform: uppercase; /*make all letters uppercase*/
+}
+
+.normal-text {
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+	background-color: yellow;
+}
+
+.link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100px;
+	color: white;
+	text-decoration: none;
+	background-color: blue;
+	text-transform: uppercase;
+}
+
+#sample-text {
+	word-spacing: 30px;
+	letter-spacing: 10px;	
+}
