@@ -1,0 +1,28 @@
+.header {
+	width: 100%;
+	background-color: black;
+	height: 200px;
+}
+
+.main {
+	
+}
+	.main > div {
+		height: 1000px;
+		float: left;
+		margin-top: 50px;
+	}
+	.main .left {
+		width: 20%;
+		background-color: yellow;
+	}
+
+	.main .center {
+		width: 60%;
+		background-color: red;
+	}
+
+	.main .right {
+		width: 20%;
+		background-color: green;
+	}

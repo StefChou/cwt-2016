@@ -1,0 +1,56 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}
+
+.main-left {
+	width: 70%;
+	float: left;
+	min-height: 100px;
+	padding: 5px;
+}
+	.main-left > div {
+		min-height: 200px;
+		float: left;
+		margin: 5px;
+	}
+
+	.main-left .one {
+		width: calc(70% - 10px);
+		background-color: silver;
+	}
+
+	.main-left .two {
+		width: calc(30% - 10px);
+		background-color: yellow;
+	}
+
+	.main-left .three {
+		width: calc(100% - 10px);
+		background-color: blue;
+	}
+
+	.main-left .four {
+		width: calc(30% - 10px);
+		background-color: red;
+	}
+
+	.main-left .five {
+		width: calc(70% - 10px);
+		background-color: green;
+	}
+
+.main-right {
+	width: 30%;
+	float: left;
+	background-color: grey;
+	min-height: 500px;
+	padding: 10px;
+}
