@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+span.cleaner {
+	display: block;
+	clear: both;
+}
+
+header {
+	background-color: black;
+	height: 440px;
+}
+
+	header .header-one {
+		height: 80px;
+		background-color: white;
+	}
+
+	header .header-two {
+		height: 80px;
+	}
+
+	header .header-three {
+		height: 80px;
+		background-color: grey;
+	}
+
+	header .header-four {
+		height: 80px;
+	}
+
+section.one {
+	background-color: silver;
+	/*height: 800px;*/
+}
+
+	section.one .section-container {
+		width: 1275px;
+		/*height: 400px;*/
+		/*background-color: lime;*/
+		margin: 0 auto 0 auto;
+		position: relative;
+		top: -150px;
+	}
+
+	section.one .section-container .top-col-1 {
+		width: 20%;
+		height: 400px;
+		float: left;
+		background-color: lime;
+	}
+
+	section.one .section-container .top-col-2 {
+		width: 46.66666%;
+		height: 400px;
+		float: left;
+		background-color: yellow;
+	}
+
+		section.one .section-container .top-col-2 .mega-story {
+			width: 90%;
+			margin: 0 auto;
+			background-color: red;
+			height: 400px;
+		}
+
+		section.one .section-container .top-col-1 .mega-news {
+			width: 90%;
+			margin: 0 auto;
+			background-color: gray;
+			height: 200px;
+		}
+
+	section.one .section-container .top-col-3 {
+		width: 33.33333%;
+		height: 400px;
+		float: left;
+		background-color: green;
+	}
+
+section.two {
+	width: 90%;
+	margin: 0 auto;
+	min-height: 300px;
+	background-color: yellow;
+}
+
+	section.two .left {
+	width: 73.33333%;
+	float: left;
+	min-height: 400px;
+	background-color: black;
+}
+
+		section.two .left .main-box {
+			width: 90%;
+			margin: 20px auto;
+			height: 300px;
+			background-color: cyan;
+			position: relative;
+		}
+
+		section.two .left .main-box .image {
+			width: 100%;
+			height: 300px;
+			background-color: red;
+		}
+
+		section.two .left .main-box .content {
+			width: 70%;
+			height: 200px;
+			background-color: white;
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+		}
+
+		section.two .left .list-box{
+			
+		}
+
+			section.two .left .list-box li {
+
+			}
+
+				section.two .left .list-box li .left {
+					width: 10%;
+					min-height: 150px;
+					background-color: magenta;
+					float: left;
+				}
+
+				section.two .left .list-box li .center {
+					width: 40%;
+					min-height: 150px;
+					background-color: yellow;
+					float: left;
+				}
+
+				section.two .left .list-box li .right {
+					width: 50%;
+					min-height: 150px;
+					background-color: magenta;
+					float: left;
+				}
+
+	section.two .right {
+	width: 26.66666%;
+	float: left;
+	min-height: 400px;
+	background-color: gray;
+}
